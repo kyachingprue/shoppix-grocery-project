@@ -1,0 +1,4 @@
+@import "tailwindcss";
+@theme{--font-sans:"Plus Jakarta Sans",sans-serif;--font-hand:"Caveat",cursive;--color-brand:#0f5b2f;--color-brand-dark:#0a3d20;--color-leaf:#e8f3df;--color-orange:#f97316;}
+html{scroll-behavior:smooth}body{font-family:var(--font-sans);color:#1f2a24;background:#f6f8f3}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
