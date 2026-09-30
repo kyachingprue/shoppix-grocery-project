@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="mx-auto max-w-7xl space-y-14 px-4 pt-6">
       <Helmet>
-        <title>Antixor Grocery – Fresh Groceries Delivered</title>
+        <title>Shoppix Grocery – Fresh Groceries Delivered</title>
         <meta
           name="description"
           content="Fresh fruits, vegetables, dairy and more delivered to your doorstep."

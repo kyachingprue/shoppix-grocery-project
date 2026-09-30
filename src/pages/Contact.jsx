@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet-async"
 export const Contact = () => (
   <div className="mx-auto grid max-w-5xl gap-8 px-4 py-12 md:grid-cols-2">
     <Helmet>
-      <title>Contact – Antixor Grocery</title>
+      <title>Contact – Shoppix Grocery</title>
     </Helmet>
     <div className="rounded-2xl bg-brand-dark p-8 text-white">
       <h1 className="text-3xl font-extrabold">Talk to us</h1>

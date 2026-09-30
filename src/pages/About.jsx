@@ -5,7 +5,7 @@ import {motion} from 'motion/react'
 export const About = () => (
   <div className="mx-auto max-w-5xl px-4 py-12">
     <Helmet>
-      <title>About – Antixor Grocery</title>
+      <title>About – Shoppix Grocery</title>
     </Helmet>
     <h1 className="text-4xl font-extrabold text-brand-dark">
       Good Food Brings People Together

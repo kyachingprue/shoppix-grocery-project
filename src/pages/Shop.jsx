@@ -769,7 +769,7 @@ export function Deals() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Helmet>
-        <title>Deals of the Day – Antixor Grocery</title>
+        <title>Deals of the Day – Shoppix Grocery</title>
         <meta
           name="description"
           content="Explore today's grocery deals and save more on your favorite products."
@@ -887,7 +887,7 @@ export function Deals() {
           <EmptyProducts onReset={() => {}} />
         )}
       </div>
-      <Testimonials/>
+      <Testimonials />
     </div>
   )
 }

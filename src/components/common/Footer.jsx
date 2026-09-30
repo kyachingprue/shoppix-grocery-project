@@ -1,5 +1,5 @@
 import { Link } from 'react-router'
-import { Leaf } from 'lucide-react'
+import logo from "../../assets/logo.png"
 import {
   FaFacebookF,
   FaInstagram,
@@ -22,7 +22,7 @@ const Logo = ({ light }) => (
       light ? 'text-white' : 'text-brand-dark'
     }`}
   >
-    <Leaf className="fill-brand text-brand" size={30} />
+    <img src={logo} className='w-8 h-8 md:w-12 md:h-12 lg:w-14 lg:h-14' alt="Shoppix grocery logo" />
 
     <span>
       Shoppix

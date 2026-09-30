@@ -14,6 +14,8 @@ import {
 import { useSelector } from 'react-redux'
 import { selectCount } from '../../store/cartSlice'
 import GButton from '../GButton'
+import logo from "../../assets/logo.png"
+
 
 const nav = [
   ['/', 'Home'],
@@ -30,7 +32,7 @@ const Logo = ({ light }) => (
       light ? 'text-white' : 'text-brand-dark'
     }`}
   >
-    <Leaf className="fill-brand text-brand" size={30} />
+    <img src={logo} className='w-8 h-8 md:w-12 md:h-12 lg:w-14 lg:h-14 mx-auto' alt="Shoppix grocery logo" />
 
     <span>
       Shoppix
